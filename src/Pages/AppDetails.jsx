@@ -12,13 +12,30 @@ const AppDetails = () => {
   const product = products ?.find(p=> String(p.id) === id)
   if(loading) return <p>Loading ...</p>
   
-  const { downloads, image, title, description, ratingAvg, reviews } = product;
-     
+  const { downloads, image, title, description, ratingAvg, reviews } = product ||{}
+   
+  
+  const handleAddToInstallNow = ()=>{
+    const existingList = JSON.parse(localStorage.getItem("installList"));
+   
+
+    let updatedList = []
+    if(existingList){
+      const isDuplicate = existingList.some(p=> p.id === product.id)
+      if(isDuplicate) return alert('sory vai')
+       updatedList = [...existingList, product]
+      // console.log(updatedList)
+    } else {
+      updatedList.push(product); 
+    }
+
+    localStorage.setItem("installList", JSON.stringify(updatedList)); 
+  }
 
   return (
     <div>
       <div className="max-w-screen-xl mx-auto w-full flex-1 p-10">
-        <div className=" card bg-base-100 flex flex-row shadow-md ">
+        <div className=" card bg-base-100 flex lg:flex-row shadow-md ">
           <div className="">
             <figure className="">
               <img
@@ -66,7 +83,10 @@ const AppDetails = () => {
                 </div>
               </div>
             </div>
-            <button className="btn btn-success text-start w-[200px] text-white">
+            <button
+              onClick={handleAddToInstallNow}
+              className="btn btn-success text-start w-[200px] text-white"
+            >
               Install Now (291 + "MB")
             </button>
           </div>

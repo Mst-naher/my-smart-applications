@@ -1,17 +1,21 @@
-import React, { useState } from 'react';
-import useProducts from '../Hooks/useProducts';
+import React, { useState } from "react";
+import useProducts from "../Hooks/useProducts";
 import ProductCard from "../Components/ProductCard";
-import { BsSearch } from 'react-icons/bs';
+import { BsSearch } from "react-icons/bs";
 
 const Apps = () => {
-  const {products} = useProducts()
+  const { products } = useProducts();
 
-  const [search, setSearch] = useState('')
+  const [search, setSearch] = useState("");
   // console.log(search)
 
-  const term = search.trim().toLocaleLowerCase() 
-  const searchedProducts = term ? products.filter(product=>product.title.toLocaleLowerCase().includes(term)) : products
-    console.log(searchedProducts)
+  const term = search.trim().toLocaleLowerCase();
+  const searchedProducts = term
+    ? products.filter((product) =>
+        product.title.toLocaleLowerCase().includes(term)
+      )
+    : products;
+  console.log(searchedProducts);
 
   return (
     <section className="max-w-screen-xl mx-auto w-full p-8 ">
@@ -45,12 +49,6 @@ const Apps = () => {
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
-
-        {/* <div className="text-center p-4 mt-10 hover:scale-x-150 transition ease-out">
-          <button className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white p-5 rounded-md text-xl font-bold px-10">
-            Show All
-          </button>
-        </div> */}
       </div>
     </section>
   );
