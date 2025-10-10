@@ -15,11 +15,11 @@ const Footer = () => {
               </span>
             </h3>
           </div>
-          <p className="font-bold">
+          {/* <p className="font-bold">
             P.Hero Industries Ltd.
             <br />
             Providing reliable tech since 1992
-          </p>
+          </p> */}
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
         </aside>
         <nav>

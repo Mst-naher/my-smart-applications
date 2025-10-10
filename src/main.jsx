@@ -1,17 +1,25 @@
-import { StrictMode } from 'react'
+import { StrictMode } from "react";
 
-import { createRoot } from 'react-dom/client'
-import './index.css'
-// import App from './App.jsx'
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import { BrowserRouter, Router, RouterProvider, Routes } from "react-router";
+import router from "./Routes/Routes";
+import { } from "react-router";
 
-import { Router, RouterProvider } from 'react-router';
-import router from './Routes/Routes';
+
+
+
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {/* <App /> */}
+    {/* Declarative Mode */}
+    {/* <BrowserRouter>
+      <Routes>
+        <Route path="/secret" element={<App />} />
+      </Routes>
+    </BrowserRouter> */}
 
     {/* Data Mode */}
-    <RouterProvider router ={router} />
+    <RouterProvider router={router} />
   </StrictMode>
 );
