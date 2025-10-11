@@ -3,6 +3,7 @@ import { useParams } from 'react-router';
 import useProducts from '../Hooks/useProducts';
 import { FiDownload } from 'react-icons/fi';
 import { FaStar } from 'react-icons/fa';
+import { toast, ToastContainer } from 'react-toastify';
 
 
 const AppDetails = () => {
@@ -12,7 +13,8 @@ const AppDetails = () => {
   const product = products ?.find(p=> String(p.id) === id)
   if(loading) return <p>Loading ...</p>
   
-  const { downloads, image, title, description, ratingAvg, reviews } = product ||{}
+  const { downloads, image, title, companyName, ratingAvg, reviews } =
+    product || {};
    
   
   const handleAddToInstallNow = ()=>{
@@ -22,7 +24,7 @@ const AppDetails = () => {
     let updatedList = []
     if(existingList){
       const isDuplicate = existingList.some(p=> p.id === product.id)
-      if(isDuplicate) return alert('sory vai')
+      if(isDuplicate) return toast('Already Installed')
        updatedList = [...existingList, product]
       // console.log(updatedList)
     } else {
@@ -48,7 +50,7 @@ const AppDetails = () => {
 
           <div className="card-body">
             <h2 className="card-title text-2xl ">{title}</h2>
-            <p>{description}</p>
+            <p>{companyName}</p>
             <hr className="borderd border-gray-300" />
             <div className="flex justify-between">
               <div className="flex justify-start items-center gap-10">
@@ -89,6 +91,7 @@ const AppDetails = () => {
             >
               Install Now (291 + "MB")
             </button>
+            <ToastContainer />
           </div>
         </div>
       </div>
