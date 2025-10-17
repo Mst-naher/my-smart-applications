@@ -1,9 +1,9 @@
 # My Smart Applicatons
 
-[app-pic](./public/assets/SharedScreenshot-01.jpg) 
-[app-pic](./public/assets/SharedScreenshot-0.jpg) 
-- [app-pic](./public/assets/SharedScreenshot-02.jpg)
-- [app-pic](./public/assets/SharedScreenshot-03.jpg)
+![project-app-pic](./public/assets/SharedScreenshot-01.jpg) 
+![project-app-pic](./public/assets/SharedScreenshot-0.jpg) 
+- [project-app-pic](./public/assets/SharedScreenshot-02.jpg)
+- [project-pic](./public/assets/SharedScreenshot-03.jpg)
 
 ## React Compiler
 
