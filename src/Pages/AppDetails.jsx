@@ -69,7 +69,7 @@ const AppDetails = () => {
           <div className="">
             <figure className="">
               <img
-                className="h-48 overflow-hidden object-cover "
+                className="lg:h-48 overflow-hidden object-cover "
                 src={image}
                 alt="app"
               />

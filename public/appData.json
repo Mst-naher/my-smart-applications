@@ -72,8 +72,7 @@
     "companyName": "ByteDance",
     "id": 3,
     "description": "TikTok, created by ByteDance, is the world’s leading short-form video platform, redefining how people create, share, and enjoy digital content. With over 3.5 billion downloads and a 4.6-star rating, TikTok has become a global hub for creativity and entertainment. The app allows users to produce 15–60 second videos enhanced with music, effects, and filters. From viral dances and comedy sketches to educational snippets and lifestyle content, TikTok’s algorithm tailors an endless stream of videos based on user preferences, making every experience unique. Its intuitive editing tools, trending hashtags, and interactive challenges empower anyone to become a creator. TikTok’s “For You” page and sound-based discovery system make it easy for new users to gain exposure and grow audiences rapidly. Beyond entertainment, TikTok fosters community, creativity, and self-expression. Brands and influencers use it for marketing, while users find inspiration and fun daily. At 55MB, it’s a powerhouse of innovation — transforming how the world connects through creativity and culture.",
-    "size": 55,
-    "reviews": 95000000,
+   
     "size": 55,
     "reviews": 95000000,
     "ratingAvg": 4.6,
@@ -340,7 +339,7 @@
     "companyName": "Reddit, Inc.",
     "id": 11,
     "description": "Reddit, developed by Reddit, Inc., is a social news aggregation and discussion platform where millions of users engage in conversations, share content, and explore communities known as subreddits. With over 500 million downloads and a 4.4-star average rating, Reddit stands as one of the most diverse and influential online platforms. Each subreddit focuses on a specific topic — from technology, science, and gaming to humor, politics, and personal advice — allowing users to find communities that match their interests. Users can post text, images, videos, and links, with upvotes and downvotes determining content visibility. Reddit fosters open discussion, creativity, and collaboration among users worldwide. The app includes features like notifications, awards, live chats, and trending posts, making community engagement dynamic and interactive. Reddit Premium offers an ad-free experience and access to exclusive features such as r/lounge. Its intuitive design ensures smooth navigation, while dark mode and accessibility settings improve usability. Moderation tools help maintain healthy discussions and community standards. At 50MB, Reddit is compact but incredibly feature-rich, serving as a hub for learning, entertainment, and global conversation. Whether seeking knowledge, entertainment, or community belonging, Reddit connects millions through curiosity and shared experiences.",
-    "size": 50,
+    
     "size": 50,
     "reviews": 24000000,
     "ratingAvg": 4.4,
