@@ -1,7 +1,7 @@
 # My Smart Applicatons
 
-- [app-pic](./public/assets/SharedScreenshot-01.jpg) 
-- [app-pic](./public/assets/SharedScreenshot-0.jpg) 
+[app-pic](./public/assets/SharedScreenshot-01.jpg) 
+[app-pic](./public/assets/SharedScreenshot-0.jpg) 
 - [app-pic](./public/assets/SharedScreenshot-02.jpg)
 - [app-pic](./public/assets/SharedScreenshot-03.jpg)
 
