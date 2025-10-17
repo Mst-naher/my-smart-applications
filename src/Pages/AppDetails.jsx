@@ -1,38 +1,66 @@
-import React from 'react';
-import { useParams } from 'react-router';
-import useProducts from '../Hooks/useProducts';
-import { FiDownload } from 'react-icons/fi';
-import { FaStar } from 'react-icons/fa';
-import { toast, ToastContainer } from 'react-toastify';
-
+import React, { useState } from "react";
+import { useParams } from "react-router";
+import useProducts from "../Hooks/useProducts";
+import { FiDownload } from "react-icons/fi";
+import { FaStar } from "react-icons/fa";
+import { toast, ToastContainer } from "react-toastify";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  Rectangle,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
 const AppDetails = () => {
-  const {id} = useParams()
-  const {products, loading, error} = useProducts()
+  const { id } = useParams();
+  const { products, loading } = useProducts();
+  const [isInstalled, setIsInstalled] = useState(false);
+  //  const [loading, setLoading] = useState(true);
+  const product = products?.find((p) => String(p.id) === id);
+  if (loading)
+    return (
+      <p className="bg-blue-100 text-blue-500 text-3xl font-bold text-center mt-50">
+        Loading....
+      </p>
+    );
 
-  const product = products ?.find(p=> String(p.id) === id)
-  if(loading) return <p>Loading ...</p>
-  
-  const { downloads, image, title, companyName, ratingAvg, reviews } =
-    product || {};
-   
-  
-  const handleAddToInstallNow = ()=>{
+  const {
+    downloads,
+    image,
+    title,
+    companyName,
+    ratingAvg,
+    reviews,
+    ratings,
+    description,
+  } = product;
+  // console.log(description)
+
+  const handleAddToInstallNow = () => {
     const existingList = JSON.parse(localStorage.getItem("installList"));
-   
+    const installed = existingList.some((p) => p.id === product?.id);
+    setIsInstalled(installed);
+    let updatedList = [];
+    if (existingList) {
+      const isDuplicate = existingList.some((p) => p.id === product?.id);
 
-    let updatedList = []
-    if(existingList){
-      const isDuplicate = existingList.some(p=> p.id === product.id)
-      if(isDuplicate) return toast('Already Installed')
-       updatedList = [...existingList, product]
+      if (isDuplicate) return toast("Already Installed");
+
+      updatedList = [...existingList, product];
       // console.log(updatedList)
     } else {
-      updatedList.push(product); 
+      updatedList.push(product);
     }
 
-    localStorage.setItem("installList", JSON.stringify(updatedList)); 
-  }
+    localStorage.setItem("installList", JSON.stringify(updatedList));
+    setIsInstalled(true);
+    // toast.success("Installation Completed!");
+  };
 
   return (
     <div>
@@ -85,15 +113,60 @@ const AppDetails = () => {
                 </div>
               </div>
             </div>
-            <button
-              onClick={handleAddToInstallNow}
-              className="btn btn-success text-start w-[200px] text-white"
-            >
-              Install Now (291 + "MB")
-            </button>
+            {isInstalled ? (
+              <button className="btn btn-success text-start w-[200px] text-white disabled">
+                Installed
+              </button>
+            ) : (
+              <button
+                onClick={handleAddToInstallNow}
+                className="btn btn-success text-start w-[200px] text-white"
+              >
+                Install Now
+              </button>
+            )}
+         
             <ToastContainer />
           </div>
         </div>
+
+        {/* Chart */}
+        <div className="space-y-3">
+          <h3 className="text-xl font-semibold">Rating</h3>
+          <div className="bg-base-100 border border-purple-300 rounded-xl p-4 h-80">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart
+                width={500}
+                height={300}
+                data={ratings}
+                margin={{
+                  top: 5,
+                  right: 30,
+                  left: 20,
+                  bottom: 5,
+                }}
+              >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey={ratings.name} />
+                <YAxis dataKey={ratings.count} />
+                <Tooltip />
+                <Legend />
+                <Bar
+                  dataKey={"count"}
+                  fill="#FF8811"
+                  activeBar={<Rectangle fill="pink" stroke="blue" />}
+                />
+            
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        {/* description */}
+
+        <div className="space-y-7"></div>
+        <h3 className="text-sm font-semibold mt-10 mb-3">Description:</h3>
+        <div className="text-sm text-gray-400 ">{description}</div>
       </div>
     </div>
   );

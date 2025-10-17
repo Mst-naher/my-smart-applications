@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { FiDownload } from "react-icons/fi";
 
+
+
 const Installation = () => {
   const [installList, setInstallList] = useState([]);
   const [sortOrder, setSortOrder] = useState("none");
@@ -10,11 +12,13 @@ const Installation = () => {
     if (savedList) setInstallList(savedList);
   }, []);
 
+   console.log(installList)
+
   const sortedItem = (() => {
-    if (sortOrder === "size-asc") {
-      return [...installList].sort((a, b) => a.size - b.size);
-    } else if (sortOrder === "size-dsc") {
-      return [...installList].sort((a, b) => b.size - a.size);
+    if (sortOrder === "download-asc") {
+      return [...installList]?.sort((a, b) => a.size - b.size);
+    } else if (sortOrder === "download-dsc") {
+      return [...installList]?.sort((a, b) => b.size - a.size);
     } else {
       return installList;
     }
@@ -34,7 +38,7 @@ const Installation = () => {
   };
 
   return (
-    <div className="space-y-3">
+    <div>
       <section className="max-w-screen-xl mx-auto w-full  ">
         <div className="p-10">
           <h1 className="text-center font-bold text-2xl">
@@ -47,7 +51,7 @@ const Installation = () => {
         <div className="flex justify-between items-center p-5">
           <h1 className="font-semibold">
             <span className="font-bold text-xl">
-              {sortedItem.length}
+              {sortedItem?.length}
               Apps Found
             </span>
           </h1>
@@ -58,30 +62,30 @@ const Installation = () => {
                 value={sortOrder}
                 onChange={(e) => setSortOrder(e.target.value)}
               >
-                <option value="none">Sort by Size</option>
-                <option value="size-asc">Low - High</option>
-                <option value="size-dec">High - Low</option>
+                <option value="none">Sort by Download</option>
+                <option value="download-asc">Low-&gt; High</option>
+                <option value="download-dsc">High-&gt; Low</option>
               </select>
             </label>
           </div>
         </div>
         <div className="space-y-3">
           {sortedItem.map((p) => (
-            <div key={p.id} className="max-w-screen-xl mx-auto w-full flex-1 ">
+            <div key={p?.id} className="max-w-screen-xl mx-auto w-full flex-1 ">
               <div className=" card bg-base-100 flex lg:flex-row shadow-md justify-between items-center m-10">
                 <div className="p-10">
                   <figure className="">
                     <img
                       className="h-20 overflow-hidden object-cover "
-                      src={p.image}
+                      src={p?.image}
                       alt="app"
                     />
                   </figure>
                 </div>
 
                 <div className="card-body">
-                  <h3 className="card-title text-md "> {p.title}</h3>
-                  {/* <p>{p.companyName}</p> */}
+                  <h3 className="card-title text-md "> {p?.title}</h3>
+                  <p>{p?.companyName}</p>
 
                   <div className="flex justify-between">
                     <div className="flex flex- justify-start items-center gap-10">
@@ -90,7 +94,7 @@ const Installation = () => {
 
                         <h2 className="text-sm">
                           {" "}
-                          {p.downloads / 1000000 + "M"}
+                          {p?.downloads / 1000000 + "M"}
                         </h2>
                       </div>
                       <div className="flex ">
@@ -100,7 +104,7 @@ const Installation = () => {
                           alt=""
                         />
 
-                        <h2 className=" text-sm"> {p.ratingAvg}</h2>
+                        <h2 className=" text-sm"> {p?.ratingAvg}</h2>
                       </div>
                       <div className="flex gap-">
                         <img
@@ -111,7 +115,7 @@ const Installation = () => {
 
                         <h2 className=" text-sm">
                           {" "}
-                          {p.reviews / 1000000 + "K"}
+                          {p?.reviews / 1000000 + "K"}
                         </h2>
                       </div>
                     </div>
@@ -119,7 +123,7 @@ const Installation = () => {
                 </div>
                 <div className="p-15">
                   <button
-                    onClick={() => handleRemove(p.id)}
+                    onClick={() => handleRemove(p?.id)}
                     className="btn btn-success text-start w-[90px] text-white "
                   >
                     Uninstall
@@ -129,6 +133,8 @@ const Installation = () => {
             </div>
           ))}
         </div>
+
+        
       </section>
     </div>
   );

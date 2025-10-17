@@ -1,11 +1,27 @@
-import React from 'react';
-import { ImGithub } from 'react-icons/im';
-
-import { TbBrandGithubFilled } from 'react-icons/tb';
-import { Link, NavLink } from 'react-router';
-
+import React from "react";
+import { ImGithub } from "react-icons/im";
+import './Navbar.css'
+import { TbBrandGithubFilled } from "react-icons/tb";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
+  const links = (
+    <>
+      <li>
+        <NavLink to="/"></NavLink>
+      </li>
+      <li>
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="/apps">Apps</NavLink>
+      </li>
+      <li>
+        <NavLink to="/installation">Installation</NavLink>
+      </li>
+    </>
+  );
+
   return (
     <div>
       <div className="navbar bg-base-100 shadow-sm">
@@ -32,18 +48,7 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <Link to="/"></Link>
-              </li>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/apps">Apps</Link>
-              </li>
-              <li>
-                <Link to="/installation">Installation</Link>
-              </li>
+              {links}
             </ul>
           </div>
           <img className="w-10 h-10 ml-15" src="../assets/logo.png" alt="" />
@@ -54,25 +59,14 @@ const Navbar = () => {
           </h3>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <Link to="/"></Link>
-            </li>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/apps">Apps</Link>
-            </li>
-            <li>
-              <Link to="/installation">Installation</Link>
-            </li>
-          </ul>
+          <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
-        <a href="https://github.com/Mst-naher"
-           target="_blank"
-           rel='noopener noreferrer'
-         className="navbar-end">
+        <a
+          href="https://github.com/Mst-naher"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="navbar-end"
+        >
           <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
             <ImGithub />
             Contribute

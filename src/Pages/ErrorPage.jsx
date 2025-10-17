@@ -1,13 +1,11 @@
-import React from 'react';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
-import { useRouteError } from 'react-router';
-
-
+import React from "react";
+import Navbar from "../Components/Navbar/Navbar";
+import Footer from "../Components/Footer";
+import { Link, useRouteError } from "react-router";
 
 const ErrorPage = () => {
- const error = useRouteError()
- console.log(error)
+  const error = useRouteError();
+  //  console.log(error)
 
   return (
     <>
@@ -19,6 +17,7 @@ const ErrorPage = () => {
           <p className="text-[12px] text-gray-400 mt-2">
             The page you are looking for is not available.
           </p>
+
           <button className=" bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-4 py-1 rounded-sm text-sm m-4">
             Go Back!
           </button>

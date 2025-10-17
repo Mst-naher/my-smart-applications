@@ -1,10 +1,10 @@
 [
   {
-    "image": "https://ibb.co/1f8nxjt7",
+    "image": "https://i.ibb.co/vxZB8R6V/kisspng-wi-fi-wireless-spotify-logo-5b2a65dc2361e5-7707732115295052441449.webp",
     "title": "Spotify",
     "companyName": "Spotify AB",
     "id": 1,
-    "description": "Stream millions of songs and podcasts on the go.",
+    "description": "Spotify is a leading music streaming platform that revolutionizes how people listen to, discover, and share audio. With access to millions of songs, podcasts, and playlists, users can enjoy music anytime, anywhere. Spotify’s intuitive interface allows listeners to create personalized playlists, explore curated recommendations, and discover new artists based on their listening habits. The app’s advanced algorithm continuously learns from your preferences, offering a tailor-made audio experience that evolves with your taste. Whether you’re in the mood for relaxing instrumentals, upbeat workout tracks, or trending podcasts, Spotify ensures you always have the perfect sound for the moment.\n\nBeyond music streaming, Spotify connects artists and fans in unique ways. Users can follow artists, see upcoming releases, and even get concert alerts. The integration of podcasts and audiobooks makes it a one-stop hub for all types of audio content. Offline listening allows Premium users to download tracks and enjoy them without an internet connection, ideal for travel or commuting. The app’s design is sleek and easy to navigate, providing seamless access across mobile, desktop, and smart devices.\n\nSpotify’s social features make listening more engaging. You can share your favorite songs, see what friends are playing, and collaborate on playlists. Its cross-platform syncing ensures a consistent experience across all your devices. With its continuous innovation, vast catalog, and user-friendly design, Spotify has become more than just a streaming app—it’s a global music community. Whether you’re an artist or a listener, Spotify brings sound to life, inspiring creativity, connection, and endless discovery.",
     "size": 35,
     "reviews": 53000000,
     "ratingAvg": 4.5,
@@ -12,23 +12,23 @@
     "ratings": [
       {
         "name": "1",
-        "count": 2000000
+        "count": 200
       },
       {
         "name": "2",
-        "count": 1500000
+        "count": 150
       },
       {
         "name": "3",
-        "count": 3000000
+        "count": 300
       },
       {
         "name": "4",
-        "count": 7000000
+        "count": 700
       },
       {
         "name": "5",
-        "count": 40000000
+        "count": 400
       }
     ]
   },
@@ -37,7 +37,7 @@
     "title": "Messenger",
     "companyName": "Meta Platforms",
     "id": 2,
-    "description": "Fast, simple, secure messaging and calling app.",
+    "description": "Messenger, developed by Meta Platforms, is a globally recognized communication app designed to keep people connected effortlessly. Originally part of Facebook, it has evolved into a standalone messaging platform offering a fast, simple, and secure way to chat, call, and share. With over 5 billion downloads and an impressive 4.7-star rating, Messenger is trusted by millions worldwide for both personal and professional communication. The app supports text messaging, voice, and video calls, making it a complete communication suite. Its user-friendly interface allows for seamless sharing of photos, videos, voice notes, stickers, and GIFs. Messenger also integrates with Facebook and Instagram, allowing users to connect across Meta’s ecosystem. Group chats, reactions, custom emojis, and message themes make conversations more engaging. Messenger prioritizes privacy and security, offering end-to-end encryption for private chats. Features like message reactions, polls, and disappearing messages enhance interactivity and control. Business users benefit from Messenger’s integration with Facebook Pages and Shops, enabling direct customer engagement. At 28MB, Messenger is lightweight yet powerful, suitable for all devices. Whether you’re catching up with friends or collaborating remotely, Messenger provides a smooth, reliable experience — proving why it remains a leader in the global communication landscape.",
     "size": 28,
     "reviews": 125000000,
     "ratingAvg": 4.7,
@@ -45,23 +45,23 @@
     "ratings": [
       {
         "name": "1",
-        "count": 5000000
+        "count": 500
       },
       {
         "name": "2",
-        "count": 3000000
+        "count": 300
       },
       {
         "name": "3",
-        "count": 6000000
+        "count": 600
       },
       {
         "name": "4",
-        "count": 12000000
+        "count": 120
       },
       {
         "name": "5",
-        "count": 99000000
+        "count": 990
       }
     ]
   },
@@ -71,7 +71,9 @@
     "title": "TikTok",
     "companyName": "ByteDance",
     "id": 3,
-    "description": "Short-form mobile videos for entertainment and creativity.",
+    "description": "TikTok, created by ByteDance, is the world’s leading short-form video platform, redefining how people create, share, and enjoy digital content. With over 3.5 billion downloads and a 4.6-star rating, TikTok has become a global hub for creativity and entertainment. The app allows users to produce 15–60 second videos enhanced with music, effects, and filters. From viral dances and comedy sketches to educational snippets and lifestyle content, TikTok’s algorithm tailors an endless stream of videos based on user preferences, making every experience unique. Its intuitive editing tools, trending hashtags, and interactive challenges empower anyone to become a creator. TikTok’s “For You” page and sound-based discovery system make it easy for new users to gain exposure and grow audiences rapidly. Beyond entertainment, TikTok fosters community, creativity, and self-expression. Brands and influencers use it for marketing, while users find inspiration and fun daily. At 55MB, it’s a powerhouse of innovation — transforming how the world connects through creativity and culture.",
+    "size": 55,
+    "reviews": 95000000,
     "size": 55,
     "reviews": 95000000,
     "ratingAvg": 4.6,
@@ -79,23 +81,23 @@
     "ratings": [
       {
         "name": "1",
-        "count": 4000000
+        "count": 400
       },
       {
         "name": "2",
-        "count": 3000000
+        "count": 300
       },
       {
         "name": "3",
-        "count": 8000000
+        "count": 800
       },
       {
         "name": "4",
-        "count": 19000000
+        "count": 190
       },
       {
         "name": "5",
-        "count": 61000000
+        "count": 610
       }
     ]
   },
@@ -104,7 +106,7 @@
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 4,
-    "description": "Watch, stream, and share videos around the world.",
+    "description": "YouTube, developed by Google LLC, is the world’s largest video-sharing and streaming platform, transforming how people watch, learn, and connect through video content. With over 10 billion downloads and a 4.7-star average rating, YouTube has become a cornerstone of digital media and online entertainment. The platform allows users to discover millions of videos on virtually any topic — from education, music, gaming, and news to tutorials, vlogs, and live events. Users can subscribe to favorite creators, leave comments, share videos, and build communities around shared interests. YouTube empowers content creators with robust tools for uploading, editing, and monetizing their work, enabling anyone to share their voice globally. With features like YouTube Shorts, users can create and enjoy short, engaging videos optimized for mobile viewing, while YouTube Live supports real-time streaming and interaction. Personalized recommendations, smart search filters, and playlists make discovering new content easy and enjoyable. Offline downloads, background play, and ad-free viewing through YouTube Premium enhance the user experience even further. Available on all devices, YouTube adapts seamlessly to any screen, ensuring accessibility everywhere. Beyond entertainment, YouTube is a hub for education and inspiration — a space where knowledge, creativity, and community thrive. Whether you’re watching a music video, learning a skill, or broadcasting to the world, YouTube continues to redefine digital video culture globally.",
     "size": 60,
     "reviews": 145000000,
     "ratingAvg": 4.7,
@@ -112,33 +114,33 @@
     "ratings": [
       {
         "name": "1",
-        "count": 3000000
+        "count": 300
       },
       {
         "name": "2",
-        "count": 2500000
+        "count": 250
       },
       {
         "name": "3",
-        "count": 7000000
+        "count": 700
       },
       {
         "name": "4",
-        "count": 20000000
+        "count": 200
       },
       {
         "name": "5",
-        "count": 113000000
+        "count": 1130
       }
     ]
   },
 
   {
-    "image": "https://ibb.co/5X2bC197",
+    "image": "https://i.ibb.co/V03fbLNK/slack.png",
     "title": "Slack",
     "companyName": "Salesforce",
     "id": 5,
-    "description": "Collaborate with your team and organize conversations.",
+    "description": "Slack, created by Salesforce, is a powerful communication and collaboration platform that connects teams, streamlines workflows, and boosts productivity. With over 100 million downloads and a 4.2-star average rating, Slack has become the go-to workspace for modern organizations and remote teams worldwide. Designed to replace traditional email clutter, Slack organizes conversations into channels — dedicated spaces for teams, projects, or topics — making collaboration more focused and transparent. Users can send instant messages, share files, and integrate tools like Google Drive, Trello, and Zoom directly within the app. Its intuitive interface allows easy navigation between chats, threads, and channels, while advanced search functions make finding past conversations effortless. Slack also supports voice and video calls, screen sharing, and custom workflows to automate repetitive tasks. Notifications can be personalized to maintain balance and focus throughout the day. Slack’s integration with Salesforce makes it an even more powerful hub for business communication and data sharing. Its security-first design includes enterprise-grade encryption and compliance standards trusted by global organizations. Available on desktop, web, and mobile, Slack ensures seamless communication from anywhere. At just 30MB, it’s compact yet highly functional. Whether working in an office or remotely, Slack keeps teams aligned, informed, and connected, driving collaboration in the digital workplace of the future.",
     "size": 30,
     "reviews": 7500000,
     "ratingAvg": 4.2,
@@ -146,32 +148,32 @@
     "ratings": [
       {
         "name": "1",
-        "count": 400000
+        "count": 400
       },
       {
         "name": "2",
-        "count": 350000
+        "count": 350
       },
       {
         "name": "3",
-        "count": 700000
+        "count": 700
       },
       {
         "name": "4",
-        "count": 2000000
+        "count": 200
       },
       {
         "name": "5",
-        "count": 4050000
+        "count": 405
       }
     ]
   },
   {
-    "image": "https://ibb.co/rGMrBYw8",
+    "image": "https://i.ibb.co/8D2Zyq7v/uber.jpg",
     "title": "Uber",
     "companyName": "Uber Technologies",
     "id": 6,
-    "description": "Request a ride or deliver food with Uber Eats.",
+    "description": "Uber, developed by Uber Technologies, is a revolutionary transportation and delivery platform that connects people with reliable rides and local services at the tap of a button. With over 500 million downloads and a 4.5-star average rating, Uber has transformed how the world moves, offering fast, safe, and convenient travel experiences in thousands of cities globally. The app allows users to quickly request a ride from nearby drivers, track their trip in real-time, and pay securely through multiple digital options. From budget-friendly UberX rides to premium options like Uber Black, users can choose the service that best fits their needs and comfort. Uber also provides specialized services such as UberPool for shared rides, UberXL for larger groups, and Uber Green for eco-conscious travel. Beyond transportation, Uber Eats brings food delivery to millions, connecting customers with their favorite local restaurants. Features like live order tracking, contactless delivery, and custom preferences ensure a seamless dining experience. Uber’s safety commitment includes verified drivers, GPS tracking, emergency assistance, and ride-sharing transparency. The app’s user-friendly interface, reliable GPS integration, and cashless transactions make it an everyday essential for commuters, travelers, and food lovers alike. At 70MB, Uber is compact, efficient, and packed with functionality that makes moving around cities more accessible than ever. Whether you need a quick ride, a business trip transfer, or a late-night meal, Uber’s technology-driven platform brings the world closer, one ride and one delivery at a time.",
     "size": 70,
     "reviews": 18000000,
     "ratingAvg": 4.5,
@@ -179,23 +181,23 @@
     "ratings": [
       {
         "name": "1",
-        "count": 800000
+        "count": 800
       },
       {
         "name": "2",
-        "count": 600000
+        "count": 600
       },
       {
         "name": "3",
-        "count": 1500000
+        "count": 150
       },
       {
         "name": "4",
-        "count": 5000000
+        "count": 500
       },
       {
         "name": "5",
-        "count": 10500000
+        "count": 1050
       }
     ]
   },
@@ -204,7 +206,7 @@
     "title": "Airbnb",
     "companyName": "Airbnb, Inc.",
     "id": 7,
-    "description": "Book vacation rentals and unique travel experiences.",
+    "description": "Airbnb, created by Airbnb, Inc., is a global travel and hospitality platform that connects guests with unique accommodations and experiences around the world. With over 150 million downloads and a 4.6-star average rating, Airbnb has redefined how people travel, offering everything from budget-friendly rooms to luxury villas and treehouses. The platform empowers hosts to share their spaces with travelers seeking authentic, local stays. Guests can search thousands of listings filtered by price, amenities, location, and experiences, ensuring personalized and memorable trips. Airbnb Experiences also allow travelers to book local activities, guided tours, and cultural workshops led by passionate hosts, turning every journey into an adventure. The app’s intuitive interface, transparent pricing, and secure payment system make booking effortless. Built-in messaging and verified profiles ensure trust and smooth communication between hosts and guests. Safety is a top priority, with features like identity verification, 24/7 support, and community reviews that build reliability across the platform. Airbnb’s flexible cancellation policies and detailed listing descriptions give travelers confidence when booking stays worldwide. At 48MB, the app is lightweight yet powerful, providing a smooth user experience on mobile and desktop. Whether you’re planning a weekend getaway, a business trip, or a month-long retreat, Airbnb helps travelers discover places that feel like home — fostering connection, culture, and belonging in every corner of the world.",
     "size": 48,
     "reviews": 12000000,
     "ratingAvg": 4.6,
@@ -212,23 +214,23 @@
     "ratings": [
       {
         "name": "1",
-        "count": 400000
+        "count": 400
       },
       {
         "name": "2",
-        "count": 300000
+        "count": 300
       },
       {
         "name": "3",
-        "count": 700000
+        "count": 700
       },
       {
         "name": "4",
-        "count": 3000000
+        "count": 300
       },
       {
         "name": "5",
-        "count": 7700000
+        "count": 770
       }
     ]
   },
@@ -237,7 +239,7 @@
     "title": "Netflix",
     "companyName": "Netflix, Inc.",
     "id": 8,
-    "description": "Stream TV shows, movies, and exclusive Netflix Originals.",
+    "description": "Netflix, developed by Netflix, Inc., is the world’s leading subscription-based streaming service, offering an unmatched collection of movies, TV shows, documentaries, and award-winning Netflix Originals. With over 2 billion downloads and an average rating of 4.7 stars, Netflix has transformed the way people watch and enjoy entertainment. The app delivers high-quality streaming with customizable profiles, smart recommendations, and seamless playback across devices. From Hollywood blockbusters and timeless classics to original hits like Stranger Things and The Crown, Netflix provides something for every taste and mood. Its user-friendly interface allows users to easily search, add titles to their watchlist, and continue watching from where they left off. Personalized recommendations, based on viewing habits, ensure a tailored entertainment experience for every viewer. Netflix also supports offline viewing, enabling users to download content and enjoy it without an internet connection. With multi-language support, parental controls, and adjustable streaming quality, Netflix is ideal for individuals and families alike. Available globally, it offers localized content to bring stories from different cultures to audiences everywhere. At 90MB, Netflix combines convenience, flexibility, and endless entertainment in one platform. Whether you’re binge-watching a series or discovering a new documentary, Netflix remains the top destination for on-demand streaming worldwide.",
     "size": 90,
     "reviews": 110000000,
     "ratingAvg": 4.7,
@@ -245,23 +247,23 @@
     "ratings": [
       {
         "name": "1",
-        "count": 2000000
+        "count": 200
       },
       {
         "name": "2",
-        "count": 1500000
+        "count": 150
       },
       {
         "name": "3",
-        "count": 4000000
+        "count": 400
       },
       {
         "name": "4",
-        "count": 20000000
+        "count": 200
       },
       {
         "name": "5",
-        "count": 82600000
+        "count": 826
       }
     ]
   },
@@ -270,7 +272,7 @@
     "title": "LinkedIn",
     "companyName": "Microsoft",
     "id": 9,
-    "description": "Professional networking, job search, and career growth.",
+    "description": "LinkedIn, owned by Microsoft, is the world’s largest professional networking platform, helping millions of users build careers, find jobs, and connect with industry experts. With over 1 billion downloads and an average rating of 4.3 stars, LinkedIn bridges the gap between professionals, companies, and opportunities. The app enables users to create professional profiles, showcase skills, share experiences, and build meaningful networks. Job seekers can search and apply for roles directly, while recruiters and employers can post openings and find qualified candidates. LinkedIn’s news feed provides industry insights, company updates, and thought leadership content, keeping users informed about trends in their fields. With features like LinkedIn Learning, users can take online courses to strengthen their skills and earn certifications. The app also supports messaging, allowing professionals to communicate, collaborate, and expand their connections effortlessly. Its clean, intuitive interface makes navigation simple, whether you’re networking, hiring, or learning. Privacy settings, content preferences, and smart recommendations personalize each user’s experience. At 55MB, LinkedIn is lightweight yet powerful — serving as a digital resume, career hub, and professional community all in one. Whether you’re a student, entrepreneur, or executive, LinkedIn helps you grow your network, advance your career, and stay connected to the professional world.",
     "size": 55,
     "reviews": 36000000,
     "ratingAvg": 4.3,
@@ -278,32 +280,32 @@
     "ratings": [
       {
         "name": "1",
-        "count": 1500000
+        "count": 150
       },
       {
         "name": "2",
-        "count": 1200000
+        "count": 120
       },
       {
         "name": "3",
-        "count": 2500000
+        "count": 250
       },
       {
         "name": "4",
-        "count": 8000000
+        "count": 800
       },
       {
         "name": "5",
-        "count": 22800000
+        "count": 228
       }
     ]
   },
   {
-    "image": "https://ibb.co/21CRFKL7",
+    "image": "https://i.ibb.co/XrK6WJdZ/snamchat.jpg",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 10,
-    "description": "Share moments with friends using fun filters and lenses.",
+    "description": "Snapchat, created by Snap Inc., is a multimedia messaging and social app that lets users share photos, videos, and moments instantly. With over 2.5 billion downloads and a 4.2-star rating, Snapchat is one of the most popular platforms for creative self-expression and real-time communication. The app is built around the idea of ephemeral content — Snaps and Stories that disappear after being viewed — encouraging authentic and fun interactions. Users can capture and enhance images with hundreds of filters, lenses, Bitmojis, and AR effects. Snapchat’s chat feature allows for text, audio, and video conversations, while group chats keep friends connected. Discover offers curated content from creators, brands, and media outlets, while Spotlight showcases viral user-generated videos. Snap Map lets users explore global events and see where friends are snapping from. With privacy in mind, Snapchat allows users to control who can view their content and communicate with them. Memories let users save favorite Snaps for future viewing, while Streaks gamify daily interactions. At 85MB, Snapchat combines fun, creativity, and connection in one sleek interface. Whether you’re sharing life’s spontaneous moments, exploring trends, or staying in touch with friends, Snapchat makes communication visual, playful, and uniquely personal.",
     "size": 85,
     "reviews": 50000000,
     "ratingAvg": 4.2,
@@ -311,23 +313,23 @@
     "ratings": [
       {
         "name": "1",
-        "count": 3000000
+        "count": 300
       },
       {
         "name": "2",
-        "count": 2500000
+        "count": 250
       },
       {
         "name": "3",
-        "count": 7000000
+        "count": 700
       },
       {
         "name": "4",
-        "count": 12000000
+        "count": 120
       },
       {
         "name": "5",
-        "count": 25800000
+        "count": 258
       }
     ]
   },
@@ -337,7 +339,8 @@
     "title": "Reddit",
     "companyName": "Reddit, Inc.",
     "id": 11,
-    "description": "Dive into communities, discussions, and trending topics.",
+    "description": "Reddit, developed by Reddit, Inc., is a social news aggregation and discussion platform where millions of users engage in conversations, share content, and explore communities known as subreddits. With over 500 million downloads and a 4.4-star average rating, Reddit stands as one of the most diverse and influential online platforms. Each subreddit focuses on a specific topic — from technology, science, and gaming to humor, politics, and personal advice — allowing users to find communities that match their interests. Users can post text, images, videos, and links, with upvotes and downvotes determining content visibility. Reddit fosters open discussion, creativity, and collaboration among users worldwide. The app includes features like notifications, awards, live chats, and trending posts, making community engagement dynamic and interactive. Reddit Premium offers an ad-free experience and access to exclusive features such as r/lounge. Its intuitive design ensures smooth navigation, while dark mode and accessibility settings improve usability. Moderation tools help maintain healthy discussions and community standards. At 50MB, Reddit is compact but incredibly feature-rich, serving as a hub for learning, entertainment, and global conversation. Whether seeking knowledge, entertainment, or community belonging, Reddit connects millions through curiosity and shared experiences.",
+    "size": 50,
     "size": 50,
     "reviews": 24000000,
     "ratingAvg": 4.4,
@@ -345,15 +348,15 @@
     "ratings": [
       {
         "name": "1",
-        "count": 1000000
+        "count": 100
       },
       {
         "name": "2",
-        "count": 900000
+        "count": 900
       },
       {
         "name": "3",
-        "count": 2000000
+        "count": 200
       },
       {
         "name": "4",
@@ -361,7 +364,7 @@
       },
       {
         "name": "5",
-        "count": 14100000
+        "count": 14
       }
     ]
   }

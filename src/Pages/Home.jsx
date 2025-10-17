@@ -4,11 +4,11 @@ import ProductCard from "../Components/ProductCard";
 import useProducts from "../Hooks/useProducts";
 
 const Home = () => {
- const  {products, loading, } = useProducts()
+ const  {products,  } = useProducts()
 //  console.log(data)
   const featuredProducts = products.slice(0, 8)
   console.log(products)
-
+ 
   return (
     <div className="">
       <header className="max-w-screen-2xl mx-auto w-full py-4 md:py-8 lg:py-12  ">

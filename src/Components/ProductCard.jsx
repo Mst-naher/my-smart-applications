@@ -5,7 +5,8 @@ import { Link } from 'react-router';
 
 const ProductCard = ({ product }) => {
   // console.log(product)
-const { title, image, downloads, description, ratings, ratingAvg, id } = product;
+const { title, image, downloads,  ratings, ratingAvg, id } =
+  product;
 
   return (
     <div className=" card bg-base-100 shadow-md hover:scale-105 transition ease-in-out">
@@ -20,7 +21,7 @@ const { title, image, downloads, description, ratings, ratingAvg, id } = product
 
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
-          <p>{description}</p>
+          {/* <p>{description}</p> */}
           <div className="flex justify-between">
             <div>
               <button className="flex items-center bg-green-100 text-green-600 text-xl rounded-md p-1 gap-2">
