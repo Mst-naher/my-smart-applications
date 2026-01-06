@@ -42,14 +42,19 @@ const AppDetails = () => {
   // console.log(description)
 
   const handleAddToInstallNow = () => {
-    const existingList = JSON.parse(localStorage.getItem("installList"));
+    const existingList = JSON.parse(localStorage.getItem("installList") || "[]");
     const installed = existingList.some((p) => p.id === product?.id);
     setIsInstalled(installed);
     let updatedList = [];
     if (existingList) {
       const isDuplicate = existingList.some((p) => p.id === product?.id);
 
-      if (isDuplicate) return toast("Already Installed");
+      if (isDuplicate){
+        toast.success("Installation Completed!");
+         toast("Already Installed");
+
+         return;
+      } 
 
       updatedList = [...existingList, product];
       // console.log(updatedList)

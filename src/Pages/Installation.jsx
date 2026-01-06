@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FiDownload } from "react-icons/fi";
+// import { toast } from "react-toastify";
 
 
 
@@ -35,6 +36,9 @@ const Installation = () => {
     setInstallList((prev) => prev.filter((p) => p.id !== id));
 
     localStorage.setItem("installList", JSON.stringify(updatedList));
+
+    // toast.success("un-install from your Device")
+
   };
 
   return (

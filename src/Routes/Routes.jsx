@@ -24,6 +24,10 @@ import ErrorPage from "../Pages/ErrorPage";
           path: "/",
           element: <Home />,
         },
+        {
+          path: "/home",
+          element: <Home />,
+        },
 
         {
           path: "/apps",
@@ -45,6 +49,8 @@ import ErrorPage from "../Pages/ErrorPage";
         //   path: "/notfoundApp",
         //   element: <NotFoundApp/>
         // },
+
+        
       ],
     },
 
@@ -52,10 +58,7 @@ import ErrorPage from "../Pages/ErrorPage";
       path: "*",
       element: <ErrorPage />,
     },
-    // {
-    //   path: "*",
-    //   element: <NotFoundApp />,
-    // },
+    
   ]);
 
 export default router;

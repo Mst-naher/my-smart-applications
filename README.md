@@ -1,14 +1,20 @@
-# My Smart Applicatons
+# Project name: My Smart Applicatons
 
 ![project-app-pic](./public/assets/SharedScreenshot-01.jpg) 
 ![project-app-pic](./public/assets/SharedScreenshot-0.jpg) 
 - [project-app-pic](./public/assets/SharedScreenshot-02.jpg)
 - [project-pic](./public/assets/SharedScreenshot-03.jpg)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Description
+ This is a responsive front-end web project designed to modern UI design and clean code practices. This project was created as part of my learning journey in my front-end web development.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies
+ - HTML5 - for structuring the web pages
+ - Tailwind CSS, DaisyUI - for styling and responsive design
+ - JavaScript (ES6) - for interactive functonality
+ - React Router - use for React applications to handle  navigation between pages without reloading the browser.
+ - Netlify - for deployment project
+ - Git & GitHub - for version control
+

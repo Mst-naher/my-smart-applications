@@ -4,8 +4,8 @@ import Footer from '../Components/Footer';
 
 const NotFoundApp = () => {
   // const [notFoundApp, setNotFoundApp] = useState('')
-
-
+   
+  //  setNotFoundApp();
 
   return (
     <>
@@ -16,7 +16,7 @@ const NotFoundApp = () => {
           <h1 className="lg:text-3xl font-bold mt-10">Oops!! App not found!</h1>
           <p className="text-[12px] text-gray-400 mt-2">
             The App you are requesting is not found on our system. please try
-            another apps
+            another apps 
           </p>
 
           <button className=" bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-4 py-1 rounded-sm text-sm m-4">
